@@ -20,6 +20,7 @@
           <template v-slot:reveal-actions>
             <v-tooltip bottom>
               <template v-slot:activator="{ attrs, on }">
+
                 <v-btn
                   v-bind="attrs"
                   color="info"

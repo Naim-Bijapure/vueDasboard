@@ -5,6 +5,7 @@
     class="v-card--material pa-3"
   >
     <div class="d-flex grow flex-wrap">
+
       <v-avatar
         v-if="avatar"
         size="128"
@@ -53,6 +54,7 @@
           class="headline font-weight-thin"
           v-text="text"
         />
+
       </v-sheet>
 
       <div

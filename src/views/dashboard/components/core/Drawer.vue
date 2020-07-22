@@ -23,13 +23,14 @@
     <v-list
       dense
       nav
-    >
+    > 
       <v-list-item>
         <v-list-item-avatar
           class="align-self-center"
           color="white"
           contain
         >
+
           <v-img
             src="https://demos.creative-tim.com/vuetify-material-dashboard/favicon.ico"
             max-height="30"
@@ -113,34 +114,55 @@
         },
         {
           icon: 'mdi-account',
-          title: 'user',
-          to: '/pages/user',
+          title: 'Goods In',
+          to: '/goods_in',
         },
+
         {
-          title: 'rtables',
-          icon: 'mdi-clipboard-outline',
-          to: '/tables/regular-tables',
+          icon: 'mdi-account',
+          title: 'Goods Out',
+          to: '/goods_out',
         },
+
         {
-          title: 'typography',
-          icon: 'mdi-format-font',
-          to: '/components/typography',
+          icon: 'mdi-account',
+          title: 'Manage Customers',
+          to: '/manage_customers',
         },
+
         {
-          title: 'icons',
-          icon: 'mdi-chart-bubble',
-          to: '/components/icons',
+          icon: 'mdi-account',
+          title: 'Manage Reports',
+          to: '/manage_reports',
         },
-        {
-          title: 'google',
-          icon: 'mdi-map-marker',
-          to: '/maps/google-maps',
-        },
-        {
-          title: 'notifications',
-          icon: 'mdi-bell',
-          to: '/components/notifications',
-        },
+
+
+
+        // {
+        //   title: 'rtables',
+        //   icon: 'mdi-clipboard-outline',
+        //   to: '/tables/regular-tables',
+        // },
+        // {
+        //   title: 'typography',
+        //   icon: 'mdi-format-font',
+        //   to: '/components/typography',
+        // },
+        // {
+        //   title: 'icons',
+        //   icon: 'mdi-chart-bubble',
+        //   to: '/components/icons',
+        // },
+        // {
+        //   title: 'google',
+        //   icon: 'mdi-map-marker',
+        //   to: '/maps/google-maps',
+        // },
+        // {
+        //   title: 'notifications',
+        //   icon: 'mdi-bell',
+        //   to: '/components/notifications',
+        // },
       ],
     }),
 
