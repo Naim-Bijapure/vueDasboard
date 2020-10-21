@@ -24,3 +24,5 @@ yarn-error.log*
 *.sln
 *.sw?
 Todo.md
+
+/live/

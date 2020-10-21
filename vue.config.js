@@ -10,7 +10,11 @@ module.exports = {
       locale: 'en',
       fallbackLocale: 'en',
       localeDir: 'locales',
-      enableInSFC: false,
+      enableInSFC: false
     },
+    apollo: {
+      enableMocks: true,
+      enableEngine: true
+    }
   },
 }
